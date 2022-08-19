@@ -1,170 +1,228 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+    crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/06a4cfb0f2.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
 </head>
+
 <body>
   <header>
     <div class="container-fluid p-0">
-      	<nav class="navbar navbar-expand-lg">
-  <a class="navbar-brand" href="#">BOOKS</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+      <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#">BOOKS</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <div class="mr-auto"></div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="mr-auto"></div>
 
-    <ul class="navbar-nav ">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">HOME</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">COURSE</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">PRICE</a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link " href="#" role="button" data-toggle="dropdown" aria-expanded="false">
-          PAGES
-        </a>
-        <div class="dropdown-menu">
-          <a class="dropdown-item" href="#">Generic</a>
-          <a class="dropdown-item" href="#">Element</a>
-          
+          <ul class="navbar-nav ">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">COURSE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">PRICE</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link " href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                PAGES
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Generic</a>
+                <a class="dropdown-item" href="#">Element</a>
+
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">FACT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">ABOUT</a>
+            </li>
+          </ul>
+
         </div>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">FACT</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">ABOUT</a>
-      </li>
-    </ul>
-  
-  </div>
-</nav>
-</div>
-<div class="container text-center">
-  <div class="row">
-    <div class="col-md-7 col-sm-12">
-      <h6>AUTHOR: DAILY TUITION</h6>
-      <h1>EXITING ADVENTURE</h1>
-      <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
-      <button class="btn btn-light">By now for $5.99</button>
+      </nav>
     </div>
-    <div class="col-md-5 col-sm-12">
-      <img src="/assets/sach.png" width="50%">
-    </div>
-  </div>
-</div>
-</header>
-<main>
-  <section class="section-1">
-    <div class="container">
+    <div class="container text-center">
       <div class="row">
-      <div class="col-md-6 col-12">
-        <img src="/assets/doichan.jpg" alt="" width="100%">
-      </div>
-      <div class="col-md-6 col-12">
-        <div class="panel">
-          <h1>Mr. Devid Smith</h1>
-          <p class="pt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <div class="col-md-7 col-sm-12">
+          <h6>AUTHOR: DAILY TUITION</h6>
+          <h1>EXITING ADVENTURE</h1>
+          <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+            scrambled it to make a type specimen book</p>
+          <button class="btn btn-light">By now for $5.99</button>
+        </div>
+        <div class="col-md-5 col-sm-12">
+          <img src="assets/sach.png" width="50%">
         </div>
       </div>
-      </div>
     </div>
-  </section>
-  <section class="section-2 container-fluid p-0">
-    <div>
-      <div class="content text-center">
-        <h1>
-          Some Features That Made Us Unique
-        </h1>
-        <p> loremipsum dolor sit amet consectetur adipiscing elit. vitae,eum?</p>
+  </header>
+  <main>
+    <section class="section-1">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-12">
+            <img src="assets/doichan.jpg" alt="" width="100%">
+          </div>
+          <div class="col-md-6 col-12">
+            <div class="panel">
+              <h1>Mr. Devid Smith</h1>
+              <p class="pt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                qui officia deserunt mollit anim id est laborum.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                deserunt mollit anim id est laborum.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-2 container-fluid p-0">
+      <div>
+        <div class="content text-center">
+          <h1>
+            Some Features That Made Us Unique
+          </h1>
+          <p> loremipsum dolor sit amet consectetur adipiscing elit. vitae,eum?</p>
+
+        </div>
+      </div>
+      <div class="container-fluid text-center">
+        <div class="d-flex flex-wrap justify-content-center">
+          <div>
+            <h1>1354</h1>
+            <p>Happy Client</p>
+          </div>
+          <div>
+            <h1>1354</h1>
+            <p>Happy Client</p>
+          </div>
+          <div>
+            <h1>1354</h1>
+            <p>Happy Client</p>
+          </div>
+          <div>
+            <h1>1354</h1>
+            <p>Happy Client</p>
+          </div>
+        </div>
+      </div>
+      <div class="center text-center">
+        <h1>Purchase Whatever You Want</h1>
+        <p>oremipsum dolor sit amet consectetur adipiscing</p>
+
+        <div class="cards">
+          <div class="d-flex justify-content-center flex-wrap">
+            <div class="card">
+              <div class="card-body">
+                <div class="title">
+                  <h5 class="card-title"> PDF</h5>
+                </div>
+              </div>
+              <p class="card-text">
+                with supporting text beblow as a natural lead-in.
+              </p>
+              <div class="pricing">
+                <h1>$77.99</h1>
+                <a class="btn btn-dark py-2">Purchase Now</a>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-body">
+                <div class="title">
+                  <h5 class="card-title"> PDF</h5>
+                </div>
+              </div>
+              <p class="card-text">
+                with supporting text beblow as a natural lead-in.
+              </p>
+              <div class="pricing">
+                <h1>$77.99</h1>
+                <a class="btn btn-dark py-2">Purchase Now</a>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-body">
+                <div class="title">
+                  <h5 class="card-title"> PDF</h5>
+                </div>
+              </div>
+              <p class="card-text">
+                with supporting text beblow as a natural lead-in.
+              </p>
+              <div class="pricing">
+                <h1>$77.99</h1>
+                <a class="btn btn-dark py-2">Purchase Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-3 container-fuild p-0 text-center">
+      <div class="row">
+        <div class="col-md-12 col-sm-12">
+          <h1>Download Our App For All Platform</h1>
+          <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus atque mollitia cumque qui corrupti
+            quia ut maxime at in blanditiis reiciendis molestias quod veritatis illum nesciunt, praesentium est fugit
+            officia!</p>
+        </div>
 
       </div>
-    </div>
-    <div class="container-fluid text-center">
-      <div class="d-flex flex-wrap justify-content-center">
-        <div >
-          <h1>1354</h1>
-          <p>Happy Client</p>
-        </div>
-        <div>
-          <h1>1354</h1>
-          <p>Happy Client</p>
-        </div>
-        <div>
-          <h1>1354</h1>
-          <p>Happy Client</p>
-        </div>
-        <div>
-          <h1>1354</h1>
-          <p>Happy Client</p>
-        </div>
-      </div>
-    </div>
-    <div class="center text-center">
-      <h1>Purchase Whatever You Want</h1>
-      <p>oremipsum dolor sit amet consectetur adipiscing</p>
-    </div>
-    <div class="cards">
-      <div class="d-flex justify-content-center flex-wrap">
-        <div class="card">
-          <div class="card-body">
-            <div class="title">
-              <h5 class="card-title"> PDF</h5>
+      <div class="row">
+        <div class="col-md-6 col-sm-12 text-right">
+          <div class="desktop shadow-lg">
+            <div class="d-flex flex-row justify-content-center">
+              <i class="fa-solid fa-desktop fa-3x py-2 pr-3"></i>
+              <div class="text-left">
+                <h3 class="pt-1 m-0 "> Desktop</h3>
+                <p class="p-0 m-0"> On Website</p>
+              </div>
             </div>
           </div>
-          <p class="card-text">
-            with supporting text beblow as a natural lead-in.
-          </p>
-          <div class="pricing">
-            <h1>$77.99</h1>
-            <a class="btn btn-dark py-2">Purchase Now</a>
-          </div>
         </div>
-         <div class="card">
-          <div class="card-body">
-            <div class="title">
-              <h5 class="card-title"> PDF</h5>
+        <div class="col-md-6 col-sm-12 text-left">
+          <div class="desktop shadow-lg">
+            <div class="d-flex flex-row justify-content-center">
+              <i class="fa-solid fa-mobile-screen-button fa-3x py-2 pr-3"></i>
+              <div class="text-left">
+                <h3 class="pt-1 m-0 "> Mobile</h3>
+                <p class="p-0 m-0"> On Play Store</p>
+              </div>
             </div>
-          </div>
-          <p class="card-text">
-            with supporting text beblow as a natural lead-in.
-          </p>
-          <div class="pricing">
-            <h1>$77.99</h1>
-            <a class="btn btn-dark py-2">Purchase Now</a>
-          </div>
-        </div>
-         <div class="card">
-          <div class="card-body">
-            <div class="title">
-              <h5 class="card-title"> PDF</h5>
-            </div>
-          </div>
-          <p class="card-text">
-            with supporting text beblow as a natural lead-in.
-          </p>
-          <div class="pricing">
-            <h1>$77.99</h1>
-            <a class="btn btn-dark py-2">Purchase Now</a>
           </div>
         </div>
       </div>
-    </div>
-  </section>
-</main>
-<footer></footer>
+    </section>
+  </main>
+  <footer></footer>
 
 </body>
+
 </html>
